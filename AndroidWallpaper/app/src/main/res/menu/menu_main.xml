@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/recomment_app"
+        android:orderInCategory="100"
+        android:title="@string/recomment_this_app"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/rate_app"
+        android:orderInCategory="100"
+        android:title="@string/rate_this_app"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/other_apps"
+        android:orderInCategory="100"
+        android:title="@string/our_otther_apps"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/copy_right"
+        android:orderInCategory="100"
+        android:title="@string/copyrght_issue"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/clearCache"
+        android:orderInCategory="100"
+        android:title="@string/clear_cache"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="@string/help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/drawer_open"
+        android:icon="@drawable/category_drawer_icon"
+        android:orderInCategory="100"
+        android:title="D"
+        app:showAsAction="always" />
+
+
+</menu>

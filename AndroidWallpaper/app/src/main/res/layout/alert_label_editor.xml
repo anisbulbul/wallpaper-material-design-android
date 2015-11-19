@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#363e47"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ratewall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="If you enjoy using this App, world you mind taking a moment to rate it? It wont't take more than a minute."
+        android:textColor="@android:color/white"
+        android:textSize="15sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <ImageView
+            android:id="@+id/rate_app_dialog_button"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:padding="1dp"
+            android:src="@drawable/ratewall" />
+
+        <ImageView
+            android:id="@+id/no_thanks_dialog_button"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:padding="1dp"
+            android:src="@drawable/nothanks" />
+
+        <ImageView
+            android:id="@+id/remind_dialog_button"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:padding="1dp"
+            android:src="@drawable/remindme" />
+    </LinearLayout>
+
+</LinearLayout>

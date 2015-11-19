@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/pref_title">
+		<EditTextPreference
+			android:key="image_ram_limit"
+			android:title="@string/image_ram_limit_title"
+			android:summary="@string/image_ram_limit_desc"
+			android:dialogTitle="@string/image_ram_limit_title"
+		/>
+
+		<EditTextPreference
+			android:key="thumbnail_fetch_count"
+			android:title="@string/thumbnail_fetch_count_title"
+			android:summary="@string/thumbnail_fetch_count_desc"
+			android:dialogTitle="@string/thumbnail_fetch_count_title"
+		/>
+	
+		<ListPreference
+			android:key="thumbnail_singletap_action"
+			android:title="@string/thumbnail_singletap_action_title"
+			android:summary="@string/thumbnail_singletap_action_desc"
+			android:dialogTitle="@string/thumbnail_singletap_action_title"
+			android:entries="@array/singletap_action_names"
+			android:entryValues="@array/singletap_action_values"
+		/>
+		<CheckBoxPreference
+			android:key="avoid_status_bar"
+			android:title="@string/avoid_status_bar_title"
+			android:summaryOff="@string/avoid_status_bar_desc_off"
+			android:summaryOn="@string/avoid_status_bar_desc_on"
+		/>
+		<CheckBoxPreference
+			android:key="avoid_navigation_bar"
+			android:title="@string/avoid_navigation_bar_title"
+			android:summaryOff="@string/avoid_navigation_bar_desc_off"
+			android:summaryOn="@string/avoid_navigation_bar_desc_on"
+		/>
+		<CheckBoxPreference
+			android:key="fullcolor"
+			android:title="@string/fullcolor_title"
+			android:summaryOff="@string/fullcolor_desc_off"
+			android:summaryOn="@string/fullcolor_desc_on"
+		/>
+		<CheckBoxPreference
+			android:key="dither"
+			android:title="@string/dither_title"
+			android:summaryOff="@string/dither_desc_off"
+			android:summaryOn="@string/dither_desc_on"
+		/>
+		
+		<jp.juggler.CropWallpaper.ColorPreference
+			android:key="padding_color"
+			android:title="@string/padding_color_title"
+			android:summary="@string/padding_color_desc"
+		/>
+
+		<EditTextPreference
+			android:key="output_width"
+			android:title="@string/output_width_title"
+			android:summary="@string/output_width_desc"
+			android:dialogTitle="@string/output_width_title"
+		/>
+		<EditTextPreference
+			android:key="output_height"
+			android:title="@string/output_height_title"
+			android:summary="@string/output_height_desc"
+			android:dialogTitle="@string/output_height_title"
+		/>
+		
+		<EditTextPreference
+			android:key="padding_left"
+			android:title="@string/padding_left_title"
+			android:summary="@string/padding_desc"
+			android:dialogTitle="@string/padding_left_title"
+		/>
+		<EditTextPreference
+			android:key="padding_right"
+			android:title="@string/padding_right_title"
+			android:summary="@string/padding_desc"
+			android:dialogTitle="@string/padding_right_title"
+		/>
+		<EditTextPreference
+			android:key="padding_top"
+			android:title="@string/padding_top_title"
+			android:summary="@string/padding_desc"
+			android:dialogTitle="@string/padding_top_title"
+		/>
+		<EditTextPreference
+			android:key="padding_bottom"
+			android:title="@string/padding_bottom_title"
+			android:summary="@string/padding_desc"
+			android:dialogTitle="@string/padding_bottom_title"
+		/>
+		
+		
+		
+	</PreferenceCategory>
+</PreferenceScreen>

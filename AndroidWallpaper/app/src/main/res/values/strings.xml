@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2015 Antonio Leiva
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~       http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="link_text_auto"><b>text1:</b> This is some text.  In
+      this text are some things that are actionable.  For instance,
+      you can click on http://www.google.com and it will launch the
+      web browser.  You can click on google.com too.  And, if you
+      click on (415) 555-1212 it should dial the phone.
+    </string>
+    <string name="app_name">MOOD WALLPAPER</string>
+    <string name="recomment_this_app">Recommend This App</string>
+    <string name="rate_this_app">Rate This App</string>
+    <string name="home">Home</string>
+    <string name="favourite">Rate This App</string>
+    <string name="our_otther_apps">Our Other Apps</string>
+    <string name="copyrght_issue">Copyright Issue</string>
+    <string name="clear_cache">Clear Cache</string>
+    <string name="info">Info</string>
+    <string name="help">Help</string>
+    <string name="share_image">Share</string>
+    <string name="add_to_favourite">Add to Favourite</string>
+    <string name="set_as_wallpaper">Set As Wallpaper</string>
+    <string name="download_image_original">Download</string>
+    <string name="title_activity_test_activity_for_test">TestActivityForTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_set">SetActivity</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="title_activity_search_">Search_Activity</string>
+
+
+    <string name="all_images">all images</string>
+    <string name="favorite">favorites</string>
+    <string name="favorite_addremove">add/remove favorites</string>
+    <string name="view">view</string>
+    <string name="send">send</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="pref">preferences</string>
+
+    <string name="no_activity">No capable application found.</string>
+    <string name="overall">overall</string>
+
+    <string name="delete_warning_title">Confirm deletion</string>
+    <string name="delete_warning">deleting %s !!\nAre you sure?</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="wallpaper_set">Apply</string>
+    <string name="wallpaper_progress_title">update wallpaper</string>
+    <string name="wallpaper_progress_message">Please wait...</string>
+
+    <string name="pref_title">preferences</string>
+    <string name="image_ram_limit_title">image size limit(MB)</string>
+    <string name="image_ram_limit_desc">If the decoded size of an image exceeds %dMB, it will be downsampling at the time of loading.</string>
+
+    <string name="thumbnail_fetch_count_title">thumbnail preload count</string>
+    <string name="thumbnail_fetch_count_desc">%d thumbnails near scroll position will be loaded.</string>
+
+    <string name="thumbnail_singletap_action_title">single-tap action</string>
+    <string name="thumbnail_singletap_action_desc">single-tap on thumbnail raises \'%s\' .</string>
+
+    <string name="avoid_status_bar_title">avoid status bar</string>
+    <string name="avoid_status_bar_desc_off">images will be placed also back of status bar. matches with transparent status bar.</string>
+    <string name="avoid_status_bar_desc_on">images will avoid status bar. (no effects on android 3.x)</string>
+
+    <string name="avoid_navigation_bar_title">avoid navigation bar</string>
+    <string name="avoid_navigation_bar_desc_off">images will be placed also back of navigation bar. matches with transparent navigation bar.</string>
+    <string name="avoid_navigation_bar_desc_on">images will avoid navigation bar. (android 4.0 or later)</string>
+
+    <string name="fullcolor_title">24bit color</string>
+    <string name="fullcolor_desc_off">for loading image, use RGB_565</string>
+    <string name="fullcolor_desc_on">for loading image, use ARGB_8888</string>
+
+    <string name="dither_title">dither output</string>
+    <string name="dither_desc_off">color depth of output image is same as loaded image.</string>
+    <string name="dither_desc_on">color depth of output image is forced to RGB_565 with dithering.</string>
+
+    <string name="padding_color_title">padding color</string>
+    <string name="padding_color_desc">if `overall` option is selected and output aspect is not match, fill the padding with this color</string>
+
+    <string name="output_width_title">output width</string>
+    <string name="output_width_desc">(%d pixel)if you want to change the size of output, please set pixel size. or set 0 to using default size.</string>
+
+    <string name="output_height_title">output height</string>
+    <string name="output_height_desc">(%d pixel)if you want to change the size of output, please set pixel size. or set 0 to using default size.</string>
+
+
+    <string name="mode_color">RGB</string>
+
+    <string name="number_range_error">please input integer between %1$d..%2$d</string>
+    <string name="padding_desc">(%d pixel width) add padding to wall paper.</string>
+    <string name="padding_left_title">padding left</string>
+    <string name="padding_right_title">padding right</string>
+    <string name="padding_top_title">padding top</string>
+    <string name="padding_bottom_title">padding bottom</string>
+
+
+</resources>

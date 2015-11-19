@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DetailActivity">
+
+    <item
+        android:id="@+id/share_image"
+        android:orderInCategory="100"
+        android:title="@string/share_image"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/add_to_favourite"
+        android:orderInCategory="100"
+        android:title="@string/add_to_favourite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/set_as_wallpaper"
+        android:orderInCategory="100"
+        android:title="@string/set_as_wallpaper"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/download_image_original"
+        android:orderInCategory="100"
+        android:title="@string/download_image_original"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/downloadOriginalImage"
+        android:clickable="true"
+        android:icon="@drawable/download"
+        android:orderInCategory="100"
+        android:title="@string/download_image_original"
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+      ~ Copyright (C) 2015 Antonio Leiva
+      ~
+      ~ Licensed under the Apache License, Version 2.0 (the "License");
+      ~ you may not use this file except in compliance with the License.
+      ~ You may obtain a copy of the License at
+      ~
+      ~       http://www.apache.org/licenses/LICENSE-2.0
+      ~
+      ~ Unless required by applicable law or agreed to in writing, software
+      ~ distributed under the License is distributed on an "AS IS" BASIS,
+      ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+      ~ See the License for the specific language governing permissions and
+      ~ limitations under the License.
+      -->
+
+<resources>
+
+
+    <style name="Snackbar.Text.Action">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/sb__action_text_color</item>
+        <item name="android:background">@drawable/sb__btn_bg</item>
+    </style>
+
+    <style name="heme.TransparencyDemo" parent="@android:style/Theme.Holo.Light" />
+
+    <style name="AppTheme" parent="BaseTheme">
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:colorControlHighlight">@color/accent_translucent</item> -->
+        <!--<item name="android:windowSharedElementsUseOverlay">false</item>-->
+        <!-- Pointer to Overflow style DONT forget! -->
+        <item name="android:actionOverflowButtonStyle">@style/MyOverFlow</item>
+    </style>
+
+    <style name="set_as_wallpaper_theme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/action_bar_color</item> 
+        <item name="android:colorPrimaryDark">@color/action_bar_color_dark</item> 
+        <item name="colorControlHighlight">@color/accent_translucent</item> 
+        <item name="android:navigationBarColor">@color/action_bar_color_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="selectableItemBackground">@drawable/selectable_item_background</item>
+        <item name="android:selectableItemBackground">@drawable/selectable_item_background</item>
+    </style>
+
+
+    <style name="CustomCheckBox">
+        <item name="android:theme">@style/CheckBoxAppTheme</item>
+    </style>
+
+    <style name="CheckBoxAppTheme">
+        <item name="android:colorControlNormal">@color/action_bar_color_dark</item>
+        <item name="android:colorControlActivated">@color/action_bar_color</item>
+    </style>
+
+
+</resources>
